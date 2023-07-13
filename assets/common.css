@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/****************************************************************/
+/* 초기화 관련 ***************************************************/
+/****************************************************************/
+
+/* 여백 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr,
+textarea, button, form {margin: 0; padding: 0;}
+
+body	{font:12px "맑은 고딕", 돋움, 굴림; text-align:center; }
+ul, ol	{list-style-type: none; }
+a:link {text-decoration: none; color: #000000; }
+a:visited {text-decoration: none; color: #000000; }
+a:active {text-decoration: none; color: #000000; }
+a:hover {text-decoration: none; color: #000000; }
+
+
+/* 레이아웃 */
+#container                      {background-color: red; }
+#container > header             {background-color: blue; }
+#container > header > nav       {background-color: green; }
+#container > #content           {background-color: pink; }
+#container > #content > aside   {background-color: darkblue; }
+#container > #content > main    {background-color: darkgray; }
+#container > footer             {background-color: #DDDDDD;}
+
+
+/* 
+#content {width: 820px; background-color: #FFFFFF; }
+#full-content {width: 1000px; background-color: #FFFFFF; }
+#footer {width: 1000px; height: 50px; background-color: #DDDDDD;}
+ */
+
+/* header */
